@@ -33,8 +33,8 @@ app.get('/hellopeople',(req,res)=>{
 app.get('/haha',(req,res)=>{
     res.send('my name is indeed not ahmed')
 })
-app.get('/hahalslss',(req,res)=>{
-    res.send('my name is indeed not ahmed')
+app.get('/github',(req,res)=>{
+    res.json(githubData)
 })
 //replacing "port" to process.env.PORT
 //PORT came from the ".env" file

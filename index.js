@@ -27,7 +27,7 @@ app.get('/login',(req,res)=>{
 app.get('/chai',(req,res)=>{
     res.send('<h2>hello my name is ahmed</h2>')
 })
-app.get('/hellopeople',(req,res)=>{
+app.get ('/hellopeople',(req,res)=>{
     res.send('my people my name is ahmed')
 })
 app.get('/haha',(req,res)=>{
